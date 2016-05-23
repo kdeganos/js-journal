@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Journal</title>
+  </head>
+  <body>
+    <form id="journal">
+      <label for="title">Enter your journal title:</label>
+      <input type="text" name="title" id="title">
+      <br>
+      <label for="body">Enter your journal:</label>
+      <textarea rows="4" columns="50" name="body" id="body"></textarea>
+      <button type="submit" class="btn btn-submit">Submit</button>
+    </form>
+
+    <div>
+      <ul id="entries"></ul>
+    </div>
+  </body>
+</html>
